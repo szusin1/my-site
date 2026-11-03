@@ -7,7 +7,7 @@ import { profile } from "@/profile";
  */
 export async function GET() {
   return NextResponse.json({
-    name: profile.displayName,
-    email: profile.email,
+    name: "Samantha Zusin",
+    email: "szusin@udel.edu"
   });
 }
